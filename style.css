@@ -1,0 +1,67 @@
+:root {
+    --red: red;
+    --grey: lightgrey;
+    --black: black;
+    --blue: rgb(0, 89, 255);
+    --very-light-grey: #DFDFDF;
+    --sm: 14px;
+    --md: 16px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: 500;
+}
+.main-container {
+    background-color: var(--very-light-grey);
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;  
+    width: 800px;
+}
+.decoration {
+    color: var(--blue);
+    font-size: 100px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.desafio {
+    color: var(--black);
+    font-size: 38px;   
+    left: 50px;
+    position: relative;
+    top: 25px;
+}
+.small-container {
+    background-color: var(--red);
+    border-radius: 15px;
+    border: 1px solid var(--black);
+    font-size: var(--sm);
+    height: 80px;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    width: 200px;
+    z-index: 1;
+}
+.big-container {
+    background-color: var(--grey);
+    border-radius: 40px;
+    border: 1px solid var(--black);
+    font-size: var(--md);
+    height: 300px;
+    margin: auto;
+    position: relative;
+    padding: 80px;
+    text-align: justify;
+    width: 500px;
+}
